@@ -10,3 +10,5 @@ With this signal, the esp8266 sends the on/off to Hue lights using http request 
 I typically use Alexa to turn on/off the lights. However, my Alexa lives in my bedroom. So, when I go out of my house, I always had to yell "ALEXA!!!!! TURN OFF THE LIGHTS!!!!" so she can hear me. I thought this was very inconvenient and annoys my neighbours. However, I'm lazy so I don't want to bring up my phone to open up the Hue app. 
 That's why I wanted to have some switch to be placed near the entrance to turn on/off all Hue Lights. 
 
+
+![alt text](https://github.com/kei5328/controlHueWithArduino/blob/master/picture.jpg?raw=true)
