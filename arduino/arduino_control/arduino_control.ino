@@ -27,8 +27,8 @@ int getUltraDist()
     // Reads the echoPin, returns the sound wave travel time in microseconds
     ultraDuration = pulseIn(ULTRA_ECHO_PIN, HIGH);
     // Calculating the distance
-    ultraDistance = ultraDuration * 0.034 / 2; // Speed of sound wave divided by 2 (go and back)
-    return ultraDistance;
+    ultraDist = ultraDuration * 0.034 / 2; // Speed of sound wave divided by 2 (go and back)
+    return ultraDist;
 }
 
 // setup funciton, to be run once at bootup.
@@ -61,7 +61,7 @@ void loop() {
         {// turn the detection off.
             is_close = false;
             consistCnt = 0;
-            digitalWrite(ledPin, LOW);  // sets the LED to the button's value
+            digitalWrite(OUTPUT_PIN, LOW);  // sets the LED to the button's value
           }
     }
     else
